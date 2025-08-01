@@ -7,7 +7,7 @@ import { Skeleton } from '@/components/ui/skeleton';
 import { useAuth } from '@/contexts/AuthContext';
 import { useEmailService } from '@/hooks/use-email-service';
 import { useToast } from '@/hooks/use-toast';
-import { Bike, Building2, Car, Mail, Motorcycle, Phone, Shield, Truck, User } from 'lucide-react';
+import { Bike, Building2, Car, Mail, Phone, Shield, Truck, User } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -333,7 +333,7 @@ const DriverRegisterPage = () => {
                           </SelectItem>
                           <SelectItem value="motorcycle">
                             <div className="flex items-center">
-                              <Motorcycle className="mr-2 h-4 w-4" />
+                              <Bike className="mr-2 h-4 w-4" />
                               Moto
                             </div>
                           </SelectItem>
